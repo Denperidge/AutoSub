@@ -7,8 +7,8 @@ else
 	model=$1
 fi
 
-model_url=https://github.com/coqui-ai/STT-models/releases/download/english%2Fcoqui%2Fv$model-huge-vocab/model.tflite
-scorer_url=https://github.com/coqui-ai/STT-models/releases/download/english%2Fcoqui%2Fv$model-huge-vocab/huge-vocabulary.scorer
+model_url=https://github.com/coqui-ai/STT-models/releases/download/english%2Fcoqui%2Fv1.0.0-huge-vocab/model.tflite
+scorer_url=https://github.com/coqui-ai/STT-models/releases/download/english%2Fcoqui%2Fv1.0.0-huge-vocab/huge-vocabulary.scorer
 
 wget ${model_url} -O "coqui-v$model-english-huge-vocabulary.tflite"
 wget ${scorer_url} -O "coqui-v$model-english-huge-vocabulary.scorer"
