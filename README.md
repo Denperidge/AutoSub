@@ -40,7 +40,7 @@ AutoSub is a CLI application to generate subtitle files (.srt, .vtt, and .txt tr
     ```
 * By default, if no model files are found in the root directory, the script will download v0.9.3 models for DeepSpeech or TFLITE model and Huge Vocab for Coqui. Use `getmodels.sh` to download DeepSpeech model and scorer files with the version number as argument. For Coqui, download from [here](https://coqui.ai/models)
     ```bash
-    $ ./getmodels.sh 0.9.3
+    $ ./getmodels.sh 1.4.0
     ```
 * For .tflite models with DeepSpeech, follow [this](https://github.com/abhirooptalasila/AutoSub/issues/41#issuecomment-968847604)
 
@@ -49,7 +49,7 @@ AutoSub is a CLI application to generate subtitle files (.srt, .vtt, and .txt tr
 
 * If you don't have the model files, get them
     ```bash
-    $ ./getmodels.sh 0.9.3
+    $ ./getmodels.sh 1.4.0
     ```
 * For a CPU build
     ```bash

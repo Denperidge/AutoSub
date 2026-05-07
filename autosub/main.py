@@ -96,10 +96,10 @@ def main():
     parser.add_argument("--engine", choices=supported_engines, nargs="?", default="stt",
                         help="Select Coqui STT for inference. Latter is default")
     parser.add_argument("--file", required=False, help="Input video file")
-    parser.add_argument("--model", required=False, default="coqui-v1.0.0-english-huge-vocabulary.tflite",
-                        help="Input *.pbmm or *.tflite model file (default: coqui-v1.0.0-english-huge-vocabulary.tflite)")
-    parser.add_argument("--scorer", required=False, default="coqui-v1.0.0-english-huge-vocabulary.scorer",
-                        help="Input *.scorer file (default: coqui-v1.0.0-english-huge-vocabulary.scorer)")
+    parser.add_argument("--model", required=False, default="coqui-v1.4.0-english-huge-vocabulary.tflite",
+                        help="Input *.pbmm or *.tflite model file (default: coqui-v1.4.0-english-huge-vocabulary.tflite)")
+    parser.add_argument("--scorer", required=False, default="coqui-v1.4.0-english-huge-vocabulary.scorer",
+                        help="Input *.scorer file (default: coqui-v1.4.0-english-huge-vocabulary.scorer)")
     
     args = parser.parse_args()
     
