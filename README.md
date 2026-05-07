@@ -1,5 +1,14 @@
+## Fork changes
+- Added shell.nix for nix(OS) compatibility
+- getmodels.sh:
+    - Default model 1.0.0 -> 1.4.0
+- README updates:
+    - Default model 0.9.3 -> 1.4.0
+    - nix instructions
+
 # AutoSub
 
+- [Fork changes](#fork-changes)
 - [AutoSub](#autosub)
   - [About](#about)
   - [Installation](#installation)
