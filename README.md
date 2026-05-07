@@ -3,6 +3,7 @@
 - [AutoSub](#autosub)
   - [About](#about)
   - [Installation](#installation)
+  - [nix](#nix)
   - [Docker](#docker)
   - [How-to example](#how-to-example)
   - [How it works](#how-it-works)
@@ -43,6 +44,14 @@ AutoSub is a CLI application to generate subtitle files (.srt, .vtt, and .txt tr
     $ ./getmodels.sh 1.4.0
     ```
 * For .tflite models with DeepSpeech, follow [this](https://github.com/abhirooptalasila/AutoSub/issues/41#issuecomment-968847604)
+
+## Nix
+```sh
+nix-shell
+uv venv --python 3.10 sub
+uv pip install -r requirements.txt
+uv run --script autosub/main.py --file ./video.mp4
+```
 
 
 ## Docker
